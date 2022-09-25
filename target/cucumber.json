@@ -1,0 +1,73 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-11T13:32:48.362Z",
+        "line": 2,
+        "name": "As a customer, I want to check the home page, so that I can explore gokomodo corporate commerce products.",
+        "description": "",
+        "id": "login;as-a-customer--i-want-to-check-the-home-page--so-that-i-can-explore-gokomodo-corporate-commerce-products.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1504899000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I want to open browser",
+            "match": {
+              "location": "StepDef.Login.iWantToOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2062900000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "go to home page",
+            "match": {
+              "location": "StepDef.Login.goToHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id\u003d\u0027root\u0027]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]\"}\n  (Session info: chrome\u003d104.0.5112.79)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Anggas-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:4af:c8ba:3803:375a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027aarch64\u0027, os.version: \u002712.5\u0027, java.version: \u002715.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.79, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/37/tpjy8jmd6ld...}, goog:chromeOptions: {debuggerAddress: localhost:49392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 31ab19cc45d1469d72f4db5fd62d067a\n*** Element info: {Using\u003dxpath, value\u003d//body/div[@id\u003d\u0027root\u0027]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat StepDef.Login.theUserIsAlreadyOnCorporateCommerceLoginPage(Login.java:29)\n\tat ✽.the user is already on corporate commerce login page(file:///Users/anggacikal/Downloads/Integration-ERP-Netlyfy/src/test/resources/Features/Login.feature:5)\n",
+              "duration": 22964000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "the user is already on corporate commerce login page",
+            "match": {
+              "location": "StepDef.Login.theUserIsAlreadyOnCorporateCommerceLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user hasn\u0027t logged in yet",
+            "match": {
+              "location": "StepDef.Login.userHasnTLoggedInYet()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
