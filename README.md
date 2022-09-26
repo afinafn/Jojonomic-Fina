@@ -9,6 +9,8 @@ pada absolute path, copy paste URL tersebut -> paste pada System.setProperty("we
 menggunakan Java Version dengan Version 15
 Note : Untuk automation ini masih menggunakan full selenium belum menggunakan BDD/OOP.
 
+untuk build :
+klik Run 'HomePage' -> jika muncul pop up Edit Cinfigure -> pada sub menu Build and Run, pilih java 15 -> Run
 
 Run Test:
 1. Buka file Jojonomic-Fina
