@@ -9,14 +9,22 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class HomePage {
     public static void main(String[] arg) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "/Users/finafany/Downloads/Jojonomic-Fina/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/finafany/Documents/Jojonomic-Fina/driver/chromedriver");
         WebDriver servicensw = new ChromeDriver();
         servicensw.get("https://www.service.nsw.gov.au/");
         servicensw.manage().window().maximize();
 
-       // WebElement pencarian1 = servicensw.findElement(By.xpath("//*[@id=\"homeautosuggestpuOqlIx3hBg\"]/input"));
-       // pencarian1.sendKeys("Apply for a number plate");
-      //  Thread.sleep(2000);
+        //JavascriptExecutor js = (JavascriptExecutor) servicensw;
+       // WebElement kliksearchview = servicensw.findElement(By.xpath("//*[@id=\"page-title\"]"));
+       // Thread.sleep(1000);
+       // js.executeScript("arguments[0].scrollIntoView();", kliksearchview);
+       // Thread.sleep(2000);
+
+
+
+       //WebElement pencarian1 = servicensw.findElement(By.xpath("//*[@id=\"homeautosuggestpuOqlIx3hBg\"]/input"));
+      // pencarian1.sendKeys("Apply for a number plate");
+       //Thread.sleep(2000);
 
 
 
