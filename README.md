@@ -15,7 +15,7 @@ klik Run 'HomePage' -> jika muncul pop up Edit Cinfigure -> pada sub menu Build 
 Run Test:
 1. Buka file Jojonomic-Fina
 2. Open file tersebut menggunakan Intelij IDEA CE
-3. Ketika sudah dibuka file nya, buka File src-> test-> java -> Jojonomic -> Homepage
+3. Ketika sudah dibuka file nya, buka File src-> test-> java -> Jojonomic -> Homepage.java
 4. File Homepage berhasil dibuka, klik tombol Run 'Homepage'
 5. Browser akan terbuka dan menjalankan automasi web tersebut
 
